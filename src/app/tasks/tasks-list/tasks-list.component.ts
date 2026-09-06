@@ -9,7 +9,6 @@ import { TaskService } from '../task.service';
   templateUrl: './tasks-list.component.html',
   styleUrl: './tasks-list.component.css',
   imports: [TaskItemComponent],
-  providers:[TaskService]
 })
 export class TasksListComponent {
   private taskService = inject(TaskService);
